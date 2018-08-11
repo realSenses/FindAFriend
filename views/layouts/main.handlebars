@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Find a friend!</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
+
+  <link href="style.css" rel="stylesheet" type="text/css">
+
+  <script defer src="https://use.fontawesome.com/releases/v5.0.0/js/all.js"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/chance/1.0.13/chance.min.js"></script>
+  {{!--  google font Concert One --}}
+  <link href="https://fonts.googleapis.com/css?family=Kanit" rel="stylesheet">
+
+</head>
+<body>
+
+<section class="hero is-info is-bold">
+  <div class="hero-body">
+  <div class="container">
+  <h1 class="title"><a href="/">Find A Friend</a></h1>
+</section>
+<section class="body">
+  <section class="container">
+  <div class="column is-8 is-offset-2">
+    <div class="card">
+      {{{body}}}
+    </div>
+  </div>
+</section>
+
+</section>
+  <footer class="footer">
+    <div class="container">
+      <div class="content">
+        <a class="button is-small is-info submit" href="https://github.com/realSenses/FindAFriend" target="_blank">
+          <span class="icon is-small">
+            <i class="fab fa-github"></i>
+          </span>
+          <span>GitHub</span>
+        </a>
+        <a class="button is-small is-info" href="/api/friends">Friends API</a>
+      </div>
+    </div>
+  </footer>
+
+  </body>
+</html>

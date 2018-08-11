@@ -1,0 +1,97 @@
+body {
+/*  background-color: salmon;*/
+}
+
+.body {
+  margin-top: 1.5rem;
+}
+
+.title a {
+  font-family: 'Kanit', sans-serif;
+  font-size: 36px;
+}
+
+.hero-body {
+  background: #833ab4;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+}
+
+#image {
+  width: 100px;
+  height: 118px;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+}
+
+.footer {
+  padding: 1rem;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.card {
+  margin-bottom: 100px;
+}
+
+#inputName {
+  width: 200px;
+}
+
+#inputImage {
+  width: 500px;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto; 
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 325px;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.button.is-danger {
+  background-color:#fd1d1d;
+}
+
+.button.is-danger:hover {
+  background-color: #fcb045;
+
+}
+
+.button.is-info {
+  background-color: #833ab4;
+}
+

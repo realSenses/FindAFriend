@@ -1,0 +1,50 @@
+<section class="section">
+
+  <p class="title is-4">Answer a few basic questions or click randomize,</p>
+  <p class="subtitle is-4">then we'll match you with the prefect friend!</p>
+
+  <a class="button is-info is-small randomize">
+    <span class="icon">
+      <i class="fas fa-random"></i>
+    </span>
+    <span>Randomize</span>
+  </a>
+
+  <div class="field">
+    <label class="label">Name</label>
+    <div class="control">
+      <input class="input" type="text" placeholder="Text input" id="inputName">
+    </div>
+  </div>
+
+  <div class="field">
+    <label class="label">Image URL</label>
+    <div class="control">
+      <input class="input" type="text" placeholder="Text input" id="inputImage">
+    </div>
+  </div>
+
+  <div id="image"></div>
+
+  <div class="field radio-questions">
+    <!-- generated radio buttons -->
+  </div>
+
+  <a class="button is-danger submit">
+    <span>Submit</span>
+  </a>
+
+</section>
+  
+<!-- Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <div class="modal-body"></div>
+  </div>
+
+</div>
+
+<script src="survey.js"></script>
